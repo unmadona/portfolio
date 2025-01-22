@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12{width: 100%;}
+
+.navbar{
+    position: relative;
+    height: 200px;
+}
+
+.nav-logo{
+    text-align: left; 
+    position: absolute;
+    left: 10px;
+
+}
+.nav-heading{
+    position: absolute;
+    right: 50%;
+}
+.nav-heading h1{
+    font-size: 4rem;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10px;    
+}
+.nav-menu a{
+    background-color: transparent;
+}
+
+/* profile section start here */
+
+.profile p{
+    width: 50%;
+    text-align: justify;
+    padding: 20px 0px 100px;
+    margin: 0 auto;
+}
+.about-me .about-me-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    border: 5px solid white; 
+    
+}
+
+
+/* <!-- professional experience start here --> */
+.professional-experience{
+    margin: 0;
+}
+.card{
+    background-color: #a39e9e;
+    border-radius: 20px;
+    padding:20px;
+    transition: .3s;
+    height: 1000px;
+    margin: 2%;
+}
+.card ol li{
+    list-style-type: disc;
+    padding: 10px ;
+    margin-left: 10%;
+
+}
+.professional-experience::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* <!-- achievements and contacts row start here  --> */
+.achievement{
+    border-radius: 20px;
+    height: 700px;
+    border-right: 1px solid white;
+}
+.contact-form{
+    border-radius: 20px;
+    height: 700px;
+    border-right: 1px solid white;
+}
+.social-links{    
+    border-radius: 20px;
+    height: 700px;
+    border-left: 1px solid white;
+}
+.social-links .btn{
+    padding-top: 100px;
+    
+    
+}
+
+
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+
+/* footer start here */
+.footer{    
+    text-align: center;
+    margin: 0 2%;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+
+}
+.footer-menu{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: inline-block;
+}
+
+.footer-menu a{
+    padding: 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
